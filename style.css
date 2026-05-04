@@ -27,7 +27,7 @@ body {
 }
 
 .card p {
-  margin: 10px 0;
+  margin: 5px 0;
   font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ body {
 /* ===== 內容置中 ===== */
 .content {
     position: absolute;
-    top: 0;
+    top: 20%;
     /* 置中 */
     left: 50%;
     transform: translateX(-50%);
@@ -220,4 +220,43 @@ body {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 768px) {
+
+  .card_title p {
+    font-size: 18px !important;
+  }
+
+  .content p {
+    font-size: 20px !important;
+  }
+
+  .content p:first-child {
+    font-size: 28px !important;
+  }
+
+  .card_title {
+    position: relative;
+    left: auto;
+    top: auto;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .content {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    padding: 5px;
+  }
+
+  .foot {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    padding: 10px;
+  }
+
 }
