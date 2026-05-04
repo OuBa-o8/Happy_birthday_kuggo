@@ -131,7 +131,7 @@ body {
 /* 更自然的晃動（不要太假） */
 @keyframes floatMove {
   0%   { transform: translate(0px, 0px); }
-  50%  { transform: translate(30px, -30px); }
+  50%  { transform: translate(40px, -40px); }
   100% { transform: translate(0px, 0px); }
 }
 
